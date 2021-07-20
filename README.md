@@ -4,11 +4,15 @@
 
 运行：
 
-`bash setup.sh 2>&1 | tee /tmp/setup.log`
+```bash
+bash setup.sh 2>&1 | tee /tmp/setup.log
+```
 
 debug 模式运行：
 
-`DEBUG=true bash setup.sh 2>&1 | tee /tmp/setup.log`
+```bash
+DEBUG=true bash setup.sh 2>&1 | tee /tmp/setup.log
+```
 
 ## windows 10
 
@@ -95,7 +99,7 @@ wsl -d Ubuntu-20.04-1
 }
 ```
 
-- 设置启动目录 `//wsl$/Ubuntu-20.04-1/home/ilyydy`
+- 设置启动目录 ```//wsl$/Ubuntu-20.04-1/home/ilyydy```
 
 ### 常用软件
 
@@ -108,7 +112,7 @@ wsl -d Ubuntu-20.04-1
 - [dbeaver](https://dbeaver.io/download/)
 - [idea](https://www.jetbrains.com/zh-cn/idea/download/#section=windows)
 - [docker desktop](https://docs.docker.com/docker-for-windows/wsl/)
-  - 配置阿里源 `https://3xr1v0un.mirror.aliyuncs.com`
+  - 配置阿里源 ```https://3xr1v0un.mirror.aliyuncs.com```
 - [anki](https://apps.ankiweb.net/)
 - [Everything](https://www.voidtools.com/zh-cn/)
 - [7-zip](https://www.7-zip.org/download.html)
