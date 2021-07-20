@@ -17,5 +17,5 @@
     rollback = reset --hard
 [pull]
     rebase = false
-[url "git@github.com-ilyydy:ilyydy"]
-    insteadOf = git@github.com:ilyydy
+# [url "git@github.com-ilyydy:ilyydy"]
+    # insteadOf = git@github.com:ilyydy
