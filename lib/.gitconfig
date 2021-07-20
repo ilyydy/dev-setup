@@ -1,0 +1,21 @@
+[user]
+    email = ilyydy@gmail.com
+    name = ilyydy
+
+[gui]
+    spellingdictionary = nonelsl
+[alias]
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    last = log -1
+    co = checkout
+    ci = commit
+    br = branch
+    st = status
+    unstage = reset HEAD
+    unchange = checkout --
+    aA = add -A
+    rollback = reset --hard
+[pull]
+    rebase = false
+[url "git@github.com-ilyydy:ilyydy"]
+    insteadOf = git@github.com:ilyydy
