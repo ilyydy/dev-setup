@@ -106,7 +106,7 @@ wsl -d Ubuntu-20.04-1
 - [vscode](https://code.visualstudio.com/download)
 - [git](https://git-scm.com/downloads)
 - [firefox](https://www.mozilla.org/zh-CN/firefox/download/thanks/)
-- windows terminal
+- [windows terminal](https://github.com/microsoft/terminal)
 - [postman](https://www.postman.com/downloads/)
 - [Another Redis Desktop Manager](https://github.com/qishibo/AnotherRedisDesktopManager#another-redis-desktop-manager)
 - [dbeaver](https://dbeaver.io/download/)
