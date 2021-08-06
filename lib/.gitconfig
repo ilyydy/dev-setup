@@ -15,6 +15,7 @@
     unchange = checkout --
     aA = add -A
     rollback = reset --hard
+    empty-br=checkout --orphan
 [pull]
     rebase = false
 # [url "git@github.com-ilyydy:ilyydy"]
