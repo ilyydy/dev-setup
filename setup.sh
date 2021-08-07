@@ -160,11 +160,7 @@ java-setup() {
 
     sudo apt install -y openjdk-$JAVA_VERSION-jdk
 
-    JAVA_ENV="JAVA_HOME=\"/usr/lib/jvm/java-$JAVA_VERSION-openjdk-amd64/bin/\""
-    sudo bash -c "echo -e '\n$JAVA_ENV\n' >> /etc/environment"
-
-    # shellcheck source=/dev/null
-    source /etc/environment
+    echo -e "\nJAVA_HOME=\$(readlink -f /usr/bin/java | sed "s:bin/java::")\n" >> $BASHRC
 }
 
 # go
